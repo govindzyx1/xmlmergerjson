@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-2">
+    <DisplayName>Assign Message-2</DisplayName>
+    <Properties/>
+    <Set>
+        <Payload contentType="application/xml">
+            <root>
+                <Add>
+                    <c>{ctotal}</c>
+                    <c>{dtotal}</c>
+                    <c>{etotal}</c>
+                    <c>{ftotal}</c>
+                    <c>{gtotal}</c>
+                </Add>
+            </root>
+        </Payload>
+        <QueryParams/>
+        <FormParams/>
+        <Verb>POST</Verb>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="true" transport="http" type="request"/>
+</AssignMessage>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="XmlMergeJson">
+    <Basepaths>/v1/xmlmergejson</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1555347876213</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>XmlMergeJson</DisplayName>
+    <LastModifiedAt>1555347876213</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:afc3457e08183f540497a2565fe2eaa40c7cb0b5283ada4d7b6f3db5e4887ff36378ad333c3136558633e276156e4b569ae5d5984a5560243d9c2f830380b5ba</ManifestVersion>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>Assign-Message-2</Policy>
+        <Policy>Extract-Variables-1</Policy>
+        <Policy>Extract-Variables-2</Policy>
+        <Policy>JavaScript-1</Policy>
+        <Policy>JavaScript-2</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://JavaScript-1.js</Resource>
+        <Resource>jsc://JavaScript-2.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
